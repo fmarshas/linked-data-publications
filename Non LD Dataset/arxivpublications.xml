@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dti%3A%5C%22Data%20Science%5C%22%26id_list%3D%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=ti:\"Data Science\"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/sUlz54Ju9IGKAl/IWxY9+OODAKo</id>
+  <updated>2025-03-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">274616</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2405.17690v1</id>
+    <updated>2024-05-27T22:46:17Z</updated>
+    <published>2024-05-27T22:46:17Z</published>
+    <title>Data Makes Better Data Scientists</title>
+    <summary>  With the goal of identifying common practices in data science projects, this
+paper proposes a framework for logging and understanding incremental code
+executions in Jupyter notebooks. This framework aims to allow reasoning about
+how insights are generated in data science and extract key observations into
+best data science practices in the wild. In this paper, we show an early
+prototype of this framework and ran an experiment to log a machine learning
+project for 25 undergraduate students.
+</summary>
+    <author>
+      <name>Jinjin Zhao</name>
+    </author>
+    <author>
+      <name>Avidgor Gal</name>
+    </author>
+    <author>
+      <name>Sanjay Krishnan</name>
+    </author>
+    <link href="http://arxiv.org/abs/2405.17690v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2405.17690v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.11086v1</id>
+    <updated>2025-02-16T11:47:50Z</updated>
+    <published>2025-02-16T11:47:50Z</published>
+    <title>Data Ecofeminism</title>
+    <summary>  Generative Artificial Intelligence (GenAI) is driving significant
+environmental impacts. The rapid development and deployment of increasingly
+larger algorithmic models capable of analysing vast amounts of data are
+contributing to rising carbon emissions, water withdrawal, and waste
+generation. Generative models often consume substantially more energy than
+traditional models, with major tech firms increasingly turning to nuclear power
+to sustain these systems -- an approach that could have profound environmental
+consequences.
+  This paper introduces seven data ecofeminist principles delineating a pathway
+for developing technological alternatives of eco-societal transformations
+within the AI research context. Rooted in data feminism and ecofeminist
+frameworks, which interrogate about the historical and social construction of
+epistemologies underlying the hegemonic development of science and technology
+that disrupt communities and nature, these principles emphasise the integration
+of social and environmental justice within a critical AI agenda. The paper
+calls for an urgent reassessment of the GenAI innovation race, advocating for
+ecofeminist algorithmic and infrastructural projects that prioritise and
+respect life, the people, and the planet.
+</summary>
+    <author>
+      <name>Ana Valdivia</name>
+    </author>
+    <link href="http://arxiv.org/abs/2502.11086v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2502.11086v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.0742v1</id>
+    <updated>2014-01-03T22:15:17Z</updated>
+    <published>2014-01-03T22:15:17Z</published>
+    <title>Data Smashing</title>
+    <summary>  Investigation of the underlying physics or biology from empirical data
+requires a quantifiable notion of similarity - when do two observed data sets
+indicate nearly identical generating processes, and when they do not. The
+discriminating characteristics to look for in data is often determined by
+heuristics designed by experts, $e.g.$, distinct shapes of "folded" lightcurves
+may be used as "features" to classify variable stars, while determination of
+pathological brain states might require a Fourier analysis of brainwave
+activity. Finding good features is non-trivial. Here, we propose a universal
+solution to this problem: we delineate a principle for quantifying similarity
+between sources of arbitrary data streams, without a priori knowledge, features
+or training. We uncover an algebraic structure on a space of symbolic models
+for quantized data, and show that such stochastic generators may be added and
+uniquely inverted; and that a model and its inverse always sum to the generator
+of flat white noise. Therefore, every data stream has an anti-stream: data
+generated by the inverse model. Similarity between two streams, then, is the
+degree to which one, when summed to the other's anti-stream, mutually
+annihilates all statistical structure to noise. We call this data smashing. We
+present diverse applications, including disambiguation of brainwaves pertaining
+to epileptic seizures, detection of anomalous cardiac rhythms, and
+classification of astronomical objects from raw photometry. In our examples,
+the data smashing principle, without access to any domain knowledge, meets or
+exceeds the performance of specialized algorithms tuned by domain experts.
+</summary>
+    <author>
+      <name>Ishanu Chattopadhyay</name>
+    </author>
+    <author>
+      <name>Hod Lipson</name>
+    </author>
+    <link href="http://arxiv.org/abs/1401.0742v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1401.0742v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.05039v1</id>
+    <updated>2015-01-21T02:41:55Z</updated>
+    <published>2015-01-21T02:41:55Z</published>
+    <title>Defining Data Science</title>
+    <summary>  Data science is gaining more and more and widespread attention, but no
+consensus viewpoint on what data science is has emerged. As a new science, its
+objects of study and scientific issues should not be covered by established
+sciences. Data in cyberspace have formed what we call datanature. In the
+present paper, data science is defined as the science of exploring datanature.
+</summary>
+    <author>
+      <name>Yangyong Zhu</name>
+    </author>
+    <author>
+      <name>Yun Xiong</name>
+    </author>
+    <link href="http://arxiv.org/abs/1501.05039v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.05039v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.05852v1</id>
+    <updated>2022-01-15T13:51:12Z</updated>
+    <published>2022-01-15T13:51:12Z</published>
+    <title>Data Science in Perspective</title>
+    <summary>  Data and Science has stood out in the generation of results, whether in the
+projects of the scientific domain or business domain. CERN Project, Scientific
+Institutes, companies like Walmart, Google, Apple, among others, need data to
+present their results and make predictions in the competitive data world. Data
+and Science are words that together culminated in a globally recognized term
+called Data Science. Data Science is in its initial phase, possibly being part
+of formal sciences and also being presented as part of applied sciences,
+capable of generating value and supporting decision making. Data Science
+considers science and, consequently, the scientific method to promote decision
+making through data intelligence. In many cases, the application of the method
+(or part of it) is considered in Data Science projects in scientific domain
+(social sciences, bioinformatics, geospatial projects) or business domain
+(finance, logistic, retail), among others. In this sense, this article
+addresses the perspectives of Data Science as a multidisciplinary area,
+considering science and the scientific method, and its formal structure which
+integrate Statistics, Computer Science, and Business Science, also taking into
+account Artificial Intelligence, emphasizing Machine Learning, among others.
+The article also deals with the perspective of applied Data Science, since Data
+Science is used for generating value through scientific and business projects.
+Data Science persona is also discussed in the article, concerning the education
+of Data Science professionals and its corresponding profiles, since its
+projection changes the field of data in the world.
+</summary>
+    <author>
+      <name>Rogerio Rossi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Information Society Conference - i-Society 2021</arxiv:comment>
+    <link href="http://arxiv.org/abs/2201.05852v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2201.05852v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.GL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.00858v1</id>
+    <updated>2016-07-04T12:40:15Z</updated>
+    <published>2016-07-04T12:40:15Z</published>
+    <title>Embracing Data Science</title>
+    <summary>  Statistics is running the risk of appearing irrelevant to today's
+undergraduate students. Today's undergraduate students are familiar with data
+science projects and they judge statistics against what they have seen.
+Statistics, especially at the introductory level, should take inspiration from
+data science so that the discipline is not seen as somehow lesser than data
+science. This article provides a brief overview of data science, outlines ideas
+for how introductory courses could take inspiration from data science, and
+provides a reference to materials for developing stand-alone data science
+courses.
+</summary>
+    <author>
+      <name>Adam Loy</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, 1 figure</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">The UMAP Journal 36 (2015) 285-292</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1607.00858v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1607.00858v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.04486v1</id>
+    <updated>2019-09-09T11:31:40Z</updated>
+    <published>2019-09-09T11:31:40Z</published>
+    <title>Data Science in Biomedicine</title>
+    <summary>  We highlight the role of Data Science in Biomedicine. Our manuscript goes
+from the general to the particular, presenting a global definition of Data
+Science and showing the trend for this discipline together with the terms of
+cloud computing and big data. In addition, since Data Science is mostly related
+to areas like economy or business, we describe its importance in biomedicine.
+Biomedical Data Science (BDS) presents the challenge of dealing with data
+coming from a range of biological and medical research, focusing on
+methodologies to advance the biomedical science discoveries, in an
+interdisciplinary context.
+</summary>
+    <author>
+      <name>Yovaninna Alarcón-Soto</name>
+    </author>
+    <author>
+      <name>Jenifer Espasandín-Domínguez</name>
+    </author>
+    <author>
+      <name>Ipek Guler</name>
+    </author>
+    <author>
+      <name>Mercedes Conde-Amboage</name>
+    </author>
+    <author>
+      <name>Francisco Gude-Sampedro</name>
+    </author>
+    <author>
+      <name>Klaus Langohr</name>
+    </author>
+    <author>
+      <name>Carmen Cadarso-Suárez</name>
+    </author>
+    <author>
+      <name>Guadalupe Gómez-Melis</name>
+    </author>
+    <link href="http://arxiv.org/abs/1909.04486v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.04486v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.OT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.02878v1</id>
+    <updated>2015-04-11T14:14:08Z</updated>
+    <published>2015-04-11T14:14:08Z</published>
+    <title>Data Science and Ebola</title>
+    <summary>  Data Science---Today, everybody and everything produces data. People produce
+large amounts of data in social networks and in commercial transactions.
+Medical, corporate, and government databases continue to grow. Sensors continue
+to get cheaper and are increasingly connected, creating an Internet of Things,
+and generating even more data. In every discipline, large, diverse, and rich
+data sets are emerging, from astrophysics, to the life sciences, to the
+behavioral sciences, to finance and commerce, to the humanities and to the
+arts. In every discipline people want to organize, analyze, optimize and
+understand their data to answer questions and to deepen insights. The science
+that is transforming this ocean of data into a sea of knowledge is called data
+science. This lecture will discuss how data science has changed the way in
+which one of the most visible challenges to public health is handled, the 2014
+Ebola outbreak in West Africa.
+</summary>
+    <author>
+      <name>Aske Plaat</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Inaugural lecture Leiden University</arxiv:comment>
+    <link href="http://arxiv.org/abs/1504.02878v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1504.02878v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.06324v1</id>
+    <updated>2021-05-13T14:24:26Z</updated>
+    <published>2021-05-13T14:24:26Z</published>
+    <title>Perspective on Data Science</title>
+    <summary>  The field of data science currently enjoys a broad definition that includes a
+wide array of activities which borrow from many other established fields of
+study. Having such a vague characterization of a field in the early stages
+might be natural, but over time maintaining such a broad definition becomes
+unwieldy and impedes progress. In particular, the teaching of data science is
+hampered by the seeming need to cover many different points of interest. Data
+scientists must ultimately identify the core of the field by determining what
+makes the field unique and what it means to develop new knowledge in data
+science. In this review we attempt to distill some core ideas from data science
+by focusing on the iterative process of data analysis and develop some
+generalizations from past experience. Generalizations of this nature could form
+the basis of a theory of data science and would serve to unify and scale the
+teaching of data science to large audiences.
+</summary>
+    <author>
+      <name>Roger D. Peng</name>
+    </author>
+    <author>
+      <name>Hilary S. Parker</name>
+    </author>
+    <link href="http://arxiv.org/abs/2105.06324v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2105.06324v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0505008v1</id>
+    <updated>2005-05-02T15:27:45Z</updated>
+    <published>2005-05-02T15:27:45Z</published>
+    <title>Data Mining on Crash Simulation Data</title>
+    <summary>  The work presented in this paper is part of the cooperative research project
+AUTO-OPT carried out by twelve partners from the automotive industries. One
+major work package concerns the application of data mining methods in the area
+of automotive design. Suitable methods for data preparation and data analysis
+are developed. The objective of the work is the re-use of data stored in the
+crash-simulation department at BMW in order to gain deeper insight into the
+interrelations between the geometric variations of the car during its design
+and its performance in crash testing. In this paper a method for data analysis
+of finite element models and results from crash simulation is proposed and
+application to recent data from the industrial partner BMW is demonstrated. All
+necessary steps from data pre-processing to re-integration into the working
+environment of the engineer are covered.
+</summary>
+    <author>
+      <name>A. Kuhlmann</name>
+    </author>
+    <author>
+      <name>R. -M. Vetter</name>
+    </author>
+    <author>
+      <name>Ch. Luebbing</name>
+    </author>
+    <author>
+      <name>C. -A. Thole</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages, 10 figures. Accepted for Lecture Notes in Computer Science
+  (LNCS)</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Lecture Notes in Computer Science, Lecture Notes in Artificial
+  Intelligence, Proceedings Conference MLDM 2005, Leipzig/Germany, Springer
+  Verlag, LNAI 3587, ISBN: 3-540-26923-1, 2005</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/cs/0505008v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/cs/0505008v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="H.2.8; D.2.2" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
