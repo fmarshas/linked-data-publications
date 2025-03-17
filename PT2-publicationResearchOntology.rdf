@@ -1,0 +1,537 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/marsia/ontologies/2025/2/publicationResearchOntology#"
+     xml:base="http://www.semanticweb.org/marsia/ontologies/2025/2/publicationResearchOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/marsia/ontologies/2025/2/publicationResearchOntology">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/marsia/ontologies/2025/2/publicationResearchOntology"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/scientific-publications#hasAuthor -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/scientific-publications#hasAuthor">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication"/>
+        <rdfs:range rdf:resource="http://example.org/scientific-publications#Author"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#hasISBN -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#hasISBN">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/scientific-publications#isbn"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/scientific-publications#abstract_text -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#abstract_text">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#abstract_url -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#abstract_url">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#access -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#access">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_DBLP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#access_type -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#access_type">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#affiliation -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#affiliation">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Author_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#article_number -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#article_number">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#citing_paper_count -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#citing_paper_count">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#comment -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#comment">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_Arxiv"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#conference_date -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#conference_date">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#conference_location -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#conference_location">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#content_type -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#content_type">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#doi -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#doi">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#download_count -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#download_count">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#end_page -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#end_page">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#html_url -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#html_url">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#id -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#id">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_Arxiv"/>
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_DBLP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#insert_date -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#insert_date">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#isbn -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#isbn">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#key -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#key">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_DBLP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#name -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#name">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Author_Arxiv"/>
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Author_DBLP"/>
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Author_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#pages -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#pages">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_DBLP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#pdf_url -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#pdf_url">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#pid -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#pid">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Author_DBLP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#publication_number -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#publication_number">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#publication_title -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#publication_title">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#publisher -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#publisher">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#rank -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#rank">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#score -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#score">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_DBLP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#start_page -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#start_page">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_IEEE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#summary -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#summary">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_Arxiv"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#title -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#title">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#type -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#type">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_DBLP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#updated -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#updated">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_Arxiv"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#url -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#url">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication_DBLP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://example.org/scientific-publications#year -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/scientific-publications#year">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Author"/>
+        <rdfs:domain rdf:resource="http://example.org/scientific-publications#Publication"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/scientific-publications#Author -->
+
+    <owl:Class rdf:about="http://example.org/scientific-publications#Author">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/scientific-publications#abstract_text"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/scientific-publications#name"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/scientific-publications#Author_Arxiv -->
+
+    <owl:Class rdf:about="http://example.org/scientific-publications#Author_Arxiv">
+        <rdfs:subClassOf rdf:resource="http://example.org/scientific-publications#Author"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/scientific-publications#Author_DBLP -->
+
+    <owl:Class rdf:about="http://example.org/scientific-publications#Author_DBLP">
+        <rdfs:subClassOf rdf:resource="http://example.org/scientific-publications#Author"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/scientific-publications#Author_IEEE -->
+
+    <owl:Class rdf:about="http://example.org/scientific-publications#Author_IEEE">
+        <rdfs:subClassOf rdf:resource="http://example.org/scientific-publications#Author"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/scientific-publications#affiliation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/scientific-publications#Publication -->
+
+    <owl:Class rdf:about="http://example.org/scientific-publications#Publication">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/scientific-publications#hasAuthor"/>
+                <owl:someValuesFrom rdf:resource="http://example.org/scientific-publications#Author"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/scientific-publications#doi"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/scientific-publications#publisher"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://example.org/scientific-publications#title"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/scientific-publications#Publication_Arxiv -->
+
+    <owl:Class rdf:about="http://example.org/scientific-publications#Publication_Arxiv">
+        <rdfs:subClassOf rdf:resource="http://example.org/scientific-publications#Publication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/scientific-publications#Publication_DBLP -->
+
+    <owl:Class rdf:about="http://example.org/scientific-publications#Publication_DBLP">
+        <rdfs:subClassOf rdf:resource="http://example.org/scientific-publications#Publication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/scientific-publications#Publication_IEEE -->
+
+    <owl:Class rdf:about="http://example.org/scientific-publications#Publication_IEEE">
+        <rdfs:subClassOf rdf:resource="http://example.org/scientific-publications#Publication"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marsia/ontologies/2025/2/publicationResearchOntology#Author1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marsia/ontologies/2025/2/publicationResearchOntology#Author1">
+        <rdf:type rdf:resource="http://example.org/scientific-publications#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marsia/ontologies/2025/2/publicationResearchOntology#Publication1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marsia/ontologies/2025/2/publicationResearchOntology#Publication1">
+        <rdf:type rdf:resource="http://example.org/scientific-publications#Publication"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
